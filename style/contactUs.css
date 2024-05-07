@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3%;
+  max-width: 88%;
+  border-radius: 10px;
+    border: 1px solid rgb(222, 222, 222);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form > div {
+  flex: 1;
+}
+.contact-form {
+  background-color: green;
+  position: relative;
+}
+form {
+  padding: 23px 22px;
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  color: green;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 11px;
+}
+
+.contact-info {
+  padding: 23px 22px;
+  position: relative;
+}
+
+.input-container {
+  position: relative;
+  margin: 16px 0;
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #fafafa;
+  background: none;
+  padding: 10px 19px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.input-container .input::placeholder {
+  color: rgba(255, 255, 255, 0.755);
+}
+
+textarea.input {
+  padding: 13px 19px;
+  min-height: 150px;
+  border-radius: 22px;
+  resize: none;
+  overflow-y: auto;
+}
+
+.bt-2 {
+  padding: 10px 21px;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 15px;
+  color: green;
+  line-height: 1;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+

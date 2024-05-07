@@ -1,0 +1,494 @@
+.title {
+    text-transform: uppercase;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(43, 139, 43);
+    font-size: 30px;
+    position: relative;
+    margin: 30px 30px;
+  }
+  .categorie {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .categorie .categorie_container {
+    transition: 0.3s;
+  }
+  .categorie .categorie_container:hover {
+    transform: translateY(-5px);
+  }
+  .categorie .categorie_container h6 {
+    padding: 10px;
+    font-family: spartanBold;
+    font-size: 16px;
+  }
+  .categorie .categorie_container .feature-1 {
+    background-color: #fddde4;
+  }
+  .categorie .categorie_container .feature-2 {
+    background-color: #d1e8f2;
+  }
+  .categorie .categorie_container .feature-3 {
+    background-color: #cdebbc;
+  }
+  .categorie .categorie_container .feature-4 {
+    background-color: #cdd4f8;
+  }
+  .categorie .categorie_container .feature-5 {
+    background-color: #f6dbf6;
+  }
+  .categorie .categorie_container .feature-6 {
+    background-color: #fff2e5;
+  }
+  
+  .produits {
+    width: 85%;
+    margin: 50px auto;
+  }
+  
+  .produits .title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: green;
+  }
+  
+  .produits .content .box {
+    overflow: hidden;
+    position: relative;
+    border: 2px solid rgb(243, 246, 246);
+    border-radius: 11px;
+    transition: transform 0.3s ease;
+  }
+  .produits .content .box:hover {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px 2px rgba(0, 128, 0, 0.249) !important;
+  }
+  .produits .content .titre h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: rgb(79, 75, 75);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .produits .content .titre h2 {
+    font-size: 17px;
+    padding-left: 10px;
+    margin-top: -2px;
+    margin-bottom: -5px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .produits .content .titre h4 i {
+    font-size: 16px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .produits .content .titre h4 span {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: red;
+    margin-left: 55px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .produits .content .box .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60%;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(75, 66, 66, 0.5);
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.8s ease;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .produits .content .box:hover .content {
+    transform: translateY(0);
+    transition: 0.8s;
+  }
+  
+  .produits .content .box .content h4 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: -55px;
+  }
+  
+  .produits .content .box .content p {
+    font-size: 13px;
+    margin: 58px 0 10px -10px;
+    text-align: center;
+  }
+  
+  .produits .content .box .content button {
+    width: 45%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: green;
+    color: #d5fff0;
+    border: 1px solid green;
+    box-shadow: 1px 1px 1px rgb(10, 177, 10);
+    transition: background-color 0.3s ease;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .produits .content .box .content button:hover {
+    background-color: rgba(4, 166, 4, 0.196);
+  }
+  
+  .bg {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bg-img {
+    height: 200px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+  }
+ 
+  
+  
+  .img-1 {
+    background: url("../images/SoundpeatsAir4ProMaroc_610x_crop_center.webp");
+  }
+  
+  .box:hover .img-1 {
+    background-image: url("../images/1SoundpeatsAir4proMarocPrix_610x_crop_center.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  
+  .img-2 {
+    background: url("../images/1air3.webp");
+  }
+  
+  .box:hover .img-2 {
+    background-image: url("../images/air3.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  
+  .img-3 {
+    background: url("../images/air4.webp");
+  }
+  
+  .box:hover .img-3 {
+    background-image: url("../images/1air4.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  
+  .img-4 {
+    background: url("../images/clear1.webp");
+  }
+  
+  .box:hover .img-4 {
+    background-image: url("../images/clear.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-5 {
+    background: url("../images/air.webp");
+  }
+  
+  .box:hover .img-5 {
+    background-image: url("../images/air4.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  
+  .img-6 {
+    background: url("../images/clear.webp");
+  }
+  
+  .box:hover .img-6 {
+    background-image: url("../images/clear1.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-7 {
+    background: url("../images/1air4.webp");
+  }
+  
+  .box:hover .img-7 {
+    background-image: url("../images/air3.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-8 {
+    background: url("../images/air4pro.webp");
+  }
+  
+  .box:hover .img-8 {
+    background-image: url("../images/1air4pro.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  
+  .img-9 {
+    background: url("../images/img-12.webp");
+  }
+  
+  .box:hover .img-9 {
+    background-image: url("../images/1img-12.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  
+  .img-10 {
+    background: url("../images/1img-10.jpg");
+  }
+  
+  .box:hover .img-10 {
+    background-image: url("../images/img-10.jpg");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  
+  .img-11 {
+    background: url("../images/1img-11.webp");
+  }
+  
+  .box:hover .img-11 {
+    background-image: url("../images/img-11.png");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  
+  .img-12 {
+    background: url("../images/1im-9.jpg");
+  }
+  
+  .box:hover .img-12 {
+    background-image: url("../images/img-9.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-13 {
+    background: url("../images/1im-9.jpg");
+  }
+  
+  .box:hover .img-13 {
+    background-image: url("../images/img-9.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  
+  .img-14 {
+    background: url("../images/img-10.jpg");
+  }
+  
+  .box:hover .img-14 {
+    background-image: url("../images/1img-10.jpg");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-15 {
+    background: url("../images/img-11.png");
+  }
+  
+  .box:hover .img-15 {
+    background-image: url("../images/1img-11.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-16 {
+    background: url("../images/img-12.webp");
+  }
+  .box:hover .img-16 {
+    background-image: url("../images/1img-12.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-17 {
+    background: url("../images/img-13.webp");
+  }
+  
+  .box:hover .img-17 {
+    background-image: url("../images/1img-13.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+    background-color: white;
+  }
+  .img-18 {
+    background: url("../images/2img-16.jpg");
+  }
+  .box:hover .img-18 {
+    background-image: url("../images/1img-16.jpg");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-19 {
+    background: url("../images/1img-15.webp");
+  }
+  
+  .box:hover .img-19 {
+    background-image: url("../images/img15.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+    background-color: white;
+  }
+  .img-20 {
+    background: url("../images/img-14.webp");
+  }
+  .box:hover .img-20 {
+    background-image: url("../images/1img-14.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+
+  .img-21 {
+    background: url("../images/1img-14.webp");
+  }
+  .box:hover .img-21 {
+    background-image: url("../images/img-14.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-22 {
+    background: url("../images/img15.webp");
+  }
+  
+  .box:hover .img-22 {
+    background-image: url("../images/1img-15.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+    background-color: white;
+  }
+  .img-23 {
+    background: url("../images/1img-16.jpg");
+  }
+  .box:hover .img-23 {
+    background-image: url("../images/2img-16.jpg");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+  }
+  .img-24 {
+    background: url("../images/1img-13.webp");
+  }
+  
+  .box:hover .img-24 {
+    background-image: url("../images/img-13.webp");
+    transform: scale(1.07);
+    transition: 0.9s;
+    overflow: hidden;
+    background-color: white;
+  }
+ 
+  .modal-content {
+    width: 70%;
+    height: 90vh;
+    margin: 55px auto;
+    border-radius: 12px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.3s;
+  }
+  .close {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: -1px;
+    background-color: transparent;
+    text-align: center;
+    padding: 13px;
+    color: rgb(7, 149, 7);
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 0 8px;
+    cursor: pointer;
+    box-shadow: -4px 5px 5px 1px;
+    transition: all 0.5s;
+    overflow: hidden;
+  }
+  
+  .close:hover,
+  .close:focus {
+    background-color: rgb(7, 149, 7);
+    color: #171923;
+  }
+  
+  input {
+    padding: 8px 5%;
+    font-size: 18px;
+    border-radius: 100px;
+    display: flex;
+    border: 2px solid green;
+    justify-content: flex-end;
+    transition: all 0.5s;
+    background-color: transparent;
+    color: green;
+  }
+  
+  input:hover {
+    box-shadow: -2px 2px 2px 2px rgba(37, 40, 37, 0.392);
+    border: none;
+  }
+
+  .bt-1  {
+    width: 12%;
+    height: 45px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 35px auto;
+    background-image: linear-gradient(314deg, #05a602 0%, #078505 74%);
+    color: #d5fff0;
+    border: 1px solid green;
+    box-shadow: 1px 1px 1px rgb(10, 177, 10);
+    transition: background-color 0.3s ease;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+   .bt-1:hover {
+    background-image: linear-gradient(314deg, #078505 0%, #05a602 74%);
+  }

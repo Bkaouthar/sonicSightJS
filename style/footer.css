@@ -1,0 +1,200 @@
+.text {
+  color: #333;
+  margin: 24px 0 32px 0;
+}
+
+.information {
+  display: flex;
+  color: #555;
+  margin: 11.2px 0;
+  align-items: center;
+  font-size: 15.2px;
+}
+
+.icon {
+  width: 28px;
+  margin-right: 11.2px;
+}
+
+.social-media {
+  padding: 32px 0 0 0;
+}
+
+.social-media p {
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 8px;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, green, #149279);
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 8px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.05);
+}
+
+
+.footer-dark {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 5%;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-dark h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.footer-dark h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #099504;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-dark ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-dark ul li a {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-dark ul li a:hover {
+  color: #169611;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 8px;
+}
+
+.media-icons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.media-icons > a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 5px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.media-icons > a:hover {
+  transform: scale(1.05);
+  color: #24262b;
+  background-color: #dbd4d4;
+}
+
+.footer-dark p {
+  color: #f3f3f3;
+  font-size: 18px;
+}
+
+#name {
+  font-family: "Bricktown", serif;
+  font-size: 18px;
+  display: inline-block;
+}
+
+#name::first-letter {
+  font-family: serif;
+}
+
+#name span {
+  padding: 3px 9px 0 0px;
+}
+
+#name::first-letter {
+  font-family: serif;
+  font-size: 22px;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 16px;
+  opacity: 0.3;
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 24px;
+  }
+
+  .contact-info:before {
+    display: none;
+  }
+
+  .square,
+  .big-circle {
+    display: none;
+  }
+
+  form,
+  .contact-info {
+    padding: 27px 26px;
+  }
+
+  .text,
+  .information,
+  .social-media p {
+    font-size: 15.8px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .icon {
+    width: 23px;
+  }
+
+  .input {
+    padding: 7px 19px;
+  }
+
+  .bt-2 {
+    padding: 7px 19px;
+  }
+}
